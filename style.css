@@ -1,6 +1,8 @@
 :root{
     --cor-de-fundo:#c0d0f3a6;
     --branco:#FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body{
@@ -34,6 +36,20 @@ body{
 .container_imagem{
     padding: 10px;
     margin: 10px;
-    width: 25px;
+    width: 40px;
 }
+
+.container-botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    width: 20ww;
+}
+
+
+
                  
