@@ -63,11 +63,42 @@
 </section>
 
 <section class="carrossel">
-    <h2 class="carrossel-titulo"> novos lançamentos</h2>
+    <h2 class="carrossel-titulo"> novos lançamentos</h2><!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src= ./img/1.svg></div>
+        <div class="swiper-slide"><img src= ./img/2.svg></div>
+        <div class="swiper-slide"><img src= ./img/3.svg></div>
+        <div class="swiper-slide"><img src= ./img/4.svg></div>
+        <div class="swiper-slide"><img src= ./img/5.svg></div>
+        <div class="swiper-slide"><img src= ./img/1.svg></div>
+        <div class="swiper-slide"><img src= ./img/2.svg></div>
+        <div class="swiper-slide"><img src= ./img/3.svg></div>
+        <div class="swiper-slide"><img src= ./img/4.svg></div>
+        <div class="swiper-slide"><img src= ./img/5.svg></div>
+     
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
+
+        <script>const swiper = new Swiper('.swiper', {
+    spaceBetween: 10,
+    slidesPerView:5,
+    pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+  });</script>
 
 
 

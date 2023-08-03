@@ -1,8 +1,8 @@
 :root{
-    --cor-de-fundo:#c3e3f5a6;
-    --branco:#FFFFFF;
+    --cor-de-fundo:#a1baffa6;
+    --branco:#ffffff;
     --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul-degrade: linear-gradient(97.54deg, #fff7f7 35.49%, #fdfdfd 165.37%);
     ---fonte-principal:"poppins";
 }
 
@@ -21,7 +21,7 @@ body{
 }
 
 .cabecalho{
-    background-color: #7dc4ff;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +98,7 @@ body{
 }
 
 .pesquisa{
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(255, 81, 81);
     border: rgb(0, 0, 0);
     color: rgb(7, 7, 7);
     border-radius: 24px;
@@ -119,4 +119,8 @@ text-transform: uppercase;
 font-size: 18px;
 font-weight: 700;
 padding: 1em 0 0.5em 0;
+    }
+
+    .swiper-slide img{
+        width: 80%;
     }
