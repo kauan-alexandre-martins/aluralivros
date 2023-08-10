@@ -1,5 +1,5 @@
 :root{
-    --cor-de-fundo:#a1baffa6;
+    --cor-de-fundo:#ccd6f1a6;
     --branco:#ffffff;
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #fff7f7 35.49%, #fdfdfd 165.37%);
@@ -81,8 +81,8 @@ body{
 }
 
 .banner{
-    background-color: var(--cor-de-fundo);
-    color: rgb(0, 0, 0);
+    background-color: #002F52;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
 }
@@ -124,3 +124,27 @@ padding: 1em 0 0.5em 0;
     .swiper-slide img{
         width: 80%;
     }
+
+.card-descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0,5em;
+}
+
+.card-botoes{
+    display:flex ;
+    justify-content: space-between;
+}
+
+.botoes{ 
+    display: flex;
+
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: center;
+    width: 80%;
+    align-items: center;
+}
