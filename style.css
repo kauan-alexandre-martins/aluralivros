@@ -123,6 +123,7 @@ padding: 1em 0 0.5em 0;
 
     .swiper-slide img{
         width: 80%;
+        padding: 10px 55px;
     }
 
 .card-descricao{
@@ -145,6 +146,19 @@ padding: 1em 0 0.5em 0;
     background-color: #ffffff;
     border-radius: 50px;
     display: center;
-    width: 80%;
+    margin: 3em;
     align-items: center;
+    padding: 2em;
+}
+
+.titulo-mais-vendidos{
+    text-align: center;
+    font-size: larger;
+    
+}
+
+
+.mais-vendidos-livros{
+height: 400px;
+
 }
