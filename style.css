@@ -54,7 +54,7 @@ body{
 .lista-menu-titulo,
 .lista-menu-item {
     padding: 1em;
-    background-color: var(--branco);
+    background-color:#002F52;
 }
 
 
@@ -70,6 +70,10 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.lista-menu-item{
+    background-color: #002F52;
 }
          
 .container-botao {
@@ -139,7 +143,6 @@ padding: 1em 0 0.5em 0;
 
 .botoes{ 
     display: flex;
-
 }
 
 .card{
@@ -151,14 +154,17 @@ padding: 1em 0 0.5em 0;
     padding: 2em;
 }
 
+
 .titulo-mais-vendidos{
     text-align: center;
-    font-size: larger;
-    
+    font-size: larger;   
 }
-
 
 .mais-vendidos-livros{
 height: 400px;
+}
 
+.botoes-itens{
+    margin: 5px 10px;
+    height: 60px 20px;
 }
