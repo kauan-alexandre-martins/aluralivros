@@ -95,7 +95,7 @@ body{
   
 }
 .banner-titulo{
-    font-size: 60px;
+    font-size: 150px;
     font-weight: 700;
 }
 .banner-texto{
@@ -134,7 +134,8 @@ body{
 
 
 .swiper-slide img {
-            width: 60%;
+            width: 260px;
+            height: 330px;
             }     
             
 .card-descricao{
@@ -171,7 +172,6 @@ body{
     color: var(--laranja);
 font-weight: 700;
 text-align: center;
-
 }
 
 .descricao-texto{
@@ -230,4 +230,10 @@ text-align: center;
     font-size: 14px;
     margin: 10px;
     border-radius: 15px;
+}
+
+.rodape{
+padding: 3em;
+font-size: 30px;
+margin: 10px;
 }
